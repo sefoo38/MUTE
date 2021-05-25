@@ -1,0 +1,32 @@
+{% extends "MUTE/base.html" %}
+{% block title %}MUTE - Eltern Login{% endblock %}
+{% block content %}
+    {% include "MUTE/includes/navBars/navbar_parent.html" %}
+    <div class=container-fluid>
+        {% load static %}
+        <div class="row mx-auto">
+            <div class="col-5"></div>
+            <div class="col-7">
+                <img src="{% static 'images/muteImages/muteWakeUp.gif' %}" class="img-fluid" alt="Picture of project mascot Mute"/>
+            </div>
+        <div class="d-grid gap-2 col-3 mx-auto">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="username" placeholder="Benutzername">
+            <label for="username">Benutzername</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="password" placeholder="Passwort">
+            <label for="floatingPassword">Passwort</label>
+        </div>
+        <label id="feedback" style="color: tomato"></label>
+        {% csrf_token %}
+        {% if action == "login" %}
+            <button type="button" id="login" class="btn btn-success btn-lg">Einloggen</button>
+        {% elif action == "register" %}
+            <button type="button" id="register" class="btn btn-success btn-lg">Registrieren</button>
+        {% endif %}
+    </div>
+        </div>
+    {% load static %}
+    <script type="text/javascript" src="{% static 'js/parentLoginRegister.js' %}"></script>
+{% endblock %}

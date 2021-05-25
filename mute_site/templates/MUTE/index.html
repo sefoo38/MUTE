@@ -1,0 +1,28 @@
+{% extends "MUTE/base.html" %}
+{% load static %}
+{% block content %}
+    {% include "MUTE/includes/navBars/navbar_index.html" %}
+
+    <div class="container-fluid"></div>
+        <div class="row mx-auto">
+            <div class="col-5"></div>
+            <div class="col-7">
+                <img src="{% static 'images/muteImages/muteSleep.gif' %}" class="img-fluid" alt="Picture of project mascot Mute"/>
+            </div>
+        </div>
+    <div class="d-grid gap-2 col-3 mx-auto">
+        <button type="button" id="start" class="btn btn-success btn-lg">Start</button>
+        {% csrf_token %}
+        <div class="input-group mb-3">
+            <input type="text" id="lecture_session_code" name="lecture_session_code" class="form-control"
+                   placeholder="Code" aria-label="Code" aria-describedby="button-addon2" required>
+            <button class="btn btn-primary" id="button-addon2">Einloggen</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="/impressum/" target="_blank" style="text-decoration: none; color: white">Impressum & Datenschutzerklärung | </a>
+        <a href="/credits/" target="_blank" style="text-decoration: none; color: white">Credits | </a>
+        <a href="https://www.hs-worms.de/" target="_blank" style="text-decoration: none; color: white">Ein Projekt der Hochschule Worms</a>
+    </footer>
+    <script type="text/javascript" src="{% static 'js/createOrAuthChild.js' %}"></script>
+{% endblock %}

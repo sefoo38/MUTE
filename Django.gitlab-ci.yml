@@ -1,0 +1,41 @@
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  image: python:latest
+  before_script:
+    - cd mute_site
+    - python -V  # Print out python version for debugging
+    - ls -la
+    - pip3 install -r requirements.txt
+  script:
+    - python manage.py test
+    - cd ../docs/
+    - python make_docs.py
+  cache:
+    paths:
+      - ~/.cache/pip/
+
+deploy:
+  stage: deploy
+  image: alpine
+  only:
+    refs:
+      - main
+  before_script:
+    - apk add zip
+    - zip -r mute_site.zip mute_site
+    - apk add openssh-client
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - ls -la
+    - scp -o StrictHostKeyChecking=no mute_site.zip $WEB_HOST:/home/mute/MUTE
+    - ssh -o StrictHostKeyChecking=no $WEB_HOST 'cd /home/mute/MUTE;./deploy.sh'
+  environment:
+    name: production
+    url: $WEB_HOST

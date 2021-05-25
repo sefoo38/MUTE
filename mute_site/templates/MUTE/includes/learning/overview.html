@@ -1,0 +1,22 @@
+{% load static %}
+<div class="col-6 ">
+    <div class="col-12 m-2 img-hover-zoom zoo" id="zoo_overview" onclick="zoomZoo()">
+        <img src="{% static 'images/islands_overview/zoo_overview.png' %}"
+             class="img-fluid" alt=""/>
+    </div>
+
+    <div class="col-8 m-4 img-hover-zoom" id="home_overview" onclick="zoomHome()">
+        <img src="{% static 'images/islands_overview/zuhause_overview.png' %}"
+             class="img-fluid" alt=""/>
+    </div>
+</div>
+<div class="col-6">
+    <div class="col-7 m-3 img-hover-zoom" id="playground_overview" onclick="zoomPlayground()">
+        <img src="{% static 'images/islands_overview/playground_overview.png' %}" class="img-fluid"
+             alt="" />
+    </div>
+    <div class="col-12 m-4 img-hover-zoom" id="school_overview" onclick="zoomSchool()">
+        <img src="{% static 'images/islands_overview/schule_overview.png' %}"
+             class="img-fluid" alt=""/>
+    </div>
+</div>

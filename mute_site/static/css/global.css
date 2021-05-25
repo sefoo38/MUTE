@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'Kid Knowledges 1';
+    src: url('../fonts/KidKnowledges1.woff2') format('woff2'),
+        url('../fonts/KidKnowledges1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body
+{
+   font-family: "Kid Knowledges 1" !important;
+}
+
+button {
+    letter-spacing: 3px;
+}
+
+@keyframes fadeOut {
+    from {opacity: 1}
+    to {opacity: 0}
+}
+
+.fade-out {
+    animation: fadeOut 2s;
+    opacity: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3c3c3c;
+    opacity: 0.6;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style-tiere.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start">Start</div>
+        <div id="quiz" style="display: none">
+            <div id="mutecoins">
+                <p id="score">0</p>
+                <div id="imgMuteCoin"></div>
+                <div id="coinFlip"></div>
+            </div>
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="gameover"></div>
+    </div>
+    <script src="quiz-tiere.js"></script>
+</body>
+</html>

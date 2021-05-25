@@ -1,0 +1,8 @@
+canvas {
+    
+    background-image:  url('Gif/loewe.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    cursor: url(Bilder/Münze.png), default;  
+}

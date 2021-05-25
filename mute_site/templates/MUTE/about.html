@@ -1,0 +1,256 @@
+{% extends "MUTE/base.html" %}
+{% block title %}MUTE - About Mute{% endblock %}
+{% block content %}
+    {% include "MUTE/includes/navBars/navbar_about.html" %}
+    {% load static %}
+
+    <div class="container-fluid">
+
+        <div class="row" id="top">
+            <div class="col-2"></div>
+            <div class="col-7">
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%
+                    </div>
+                </div>
+                <p class="fs-3">Gesamtfortschritt</p>
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
+                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%
+                    </div>
+                </div>
+                <p class="fs-7">Backend</p>
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%
+                    </div>
+                </div>
+                <p class="fs-7">Frontend</p>
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+                         aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%
+                    </div>
+                </div>
+                <p class="fs-7">Gamification</p>
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%
+                    </div>
+                </div>
+                <p class="fs-7">Design</p>
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar"
+                         aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%
+                    </div>
+                </div>
+                <p class="fs-7">Animation</p>
+
+            </div>
+            <div class="col-3">
+                <img src="{% static 'images/muteImages/muteRainbow.gif' %}" class="img-fluid"
+                     alt="Picture of project mascot Mute"/></div>
+        </div>
+
+        <div class="row" id="middle">
+            <div class="d-grid col-9 mx-auto">
+                <div class="row gap-3 fs-5">
+
+                    <!-- __________ CARD/MODAL VISION _________-->
+                    <div class="card p-2" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#visionModal">
+                        <img src="{% static 'images/about/pexels-pixabay-355952_VISION.jpg' %}" class="card-img-top"
+                             alt="Illustration for Vision">
+                        <div class="card-body">
+                            <h5 class="card-title">Was ist unser Ziel ?</h5>
+                            <button class="btn btn-primary">Unsere Vision</button>
+                        </div>
+                        <div class="modal fade" id="visionModal" tabindex="-1" aria-labelledby="visionModal"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="visionModal">Vision</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Die Stärkung der
+                                            Kommunikation zwischen Kindern,
+                                            mit kommunikativen Einschränkungen, ihren Familien und sowie mit
+                                            anderen Menschen.</p>
+                                        <p>Auf der einen Seite das spielerische erlernen einfacher Gebärden, um
+                                            eingeschränkten Kindern
+                                            die Kommunikation ihrer Bedürfnise, Gefühle und Wünsche, spielerisch zu
+                                            ermöglichen.</p>
+                                        <p>Auf der anderen Seite auch den Eltern, Geschwistern und Freunden auch eine
+                                            Möglichkeit zu bieten,
+                                            Gebärden zu erlernen um ihren kleinen Schützling besser zu verstehen und
+                                            sich mit ihm zu unterhalten.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                            Schließen
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- __________ CARD/MODAL WERTE _________-->
+                    <div class="card p-2" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#werteModal">
+                        <img src="{% static 'images/about/pexels-bich-tran-760721_WERTE.jpg' %}" class="card-img-top"
+                             alt="Illustration for Werte">
+                        <div class="card-body">
+                            <h5 class="card-title">Was ist uns wichtig ?</h5>
+                            <button class="btn btn-primary">Unsere Werte</button>
+                        </div>
+                        <div class="modal fade" id="werteModal" tabindex="-1" aria-labelledby="werteModal"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="werteModal">Werte</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p> Einige unserer Gruppenmitglieder betreuen geistig und/oder körperlich
+                                            beeinträchtigte Personen in ihrem
+                                            Familien- & Freundeskreis und andere investieren Zeit und engagieren sich
+                                            sozial
+                                            in Pflegeeinrichtungen oder Kindertagesstätten mit beeinträchtigten
+                                            Kindern.</p>
+                                        <p>Wir als Team hatten bereits zu Beginn eine hohe emotionale Bindung mit diesem
+                                            Projekt,
+                                            welche sich im laufe der Arbeit weiter verstärkt hat. </p>
+                                        <p>Uns allen ist das Resultat des Projektes sehr wichtig.
+                                            Wir haben unsere Vision nie aus den
+                                            Augen verloren und arbeiteten hoch motiviert
+                                            und zielgerichtet auf ein klares Ziel hin:</p>
+                                        <p> Eine
+                                            benutzerfreundliche Webanwendung,
+                                            mit der Kinder und Erwachsene die Gebärdensprache einfach und spielerisch
+                                            erlernen können</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                            Schließen
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- __________ CARD/MODAL TEAM _________-->
+                    <div class="card p-2" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#teamModal">
+                        <img src="{% static 'images/about/pexels-fauxels-3183150_TEAM.jpg' %}" class="card-img-top"
+                             alt="Illustration for Team">
+                        <div class="card-body">
+                            <h5 class="card-title">Wer sind wir ?</h5>
+                            <button class="btn btn-primary">Das Team</button>
+                        </div>
+                        <div class="modal fade" id="teamModal" tabindex="-1" aria-labelledby="teamModal"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="teamModal">Team</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Wir sind eine Gruppe aus Studenten der Hochschule Worms aus dem Studiengang
+                                            Angewandte Informatik,
+                                            die mit viel Elan und Teamgeist das Projekt angepackt haben.
+                                        <p>Verschiedene Nationalitäten, eine große Sammlung an Wissen und viel
+                                            Motivation treffen zusammen
+                                            um dieses Projekt zu starten und zu bearbeiten.</p>
+                                        <p>Mit dem Fachwissen aus den Vertiefungen Networks and Security, Visual
+                                            Computing und Software Engineering and Development,
+                                            haben wir dafür gesorgt haben, dass genau diese Anwendung in Fahrt
+                                            kommt.</p>
+                                        <p>Das MUTE-Team:
+                                            <br> Adile Hasyildirim
+                                            <br> Sefa Simsek
+                                            <br> Constantin Gehr
+                                            <br> Sandro Falzone
+                                            <br> Kevin Kaya
+                                            <br> Lara Police
+                                            <br> Elias Krüger
+                                            <br> Daniela Ofan
+                                            <br> Rodion Chaykovskiy
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                            Schließen
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- __________ CARD/MODAL LIZENZ _________-->
+                    <div class="card p-2" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#lizenzModal">
+                        <img src="{% static 'images/about/pexels-cottonbro-3662845_LIZENZ.jpg' %}" class="card-img-top"
+                             alt="Illustration for Lizenz">
+                        <div class="card-body m-2">
+                            <h5 class="card-title">Freie Verwendung !</h5>
+                            <button href="#" class="btn btn-primary">Die Lizenz</button>
+                        </div>
+                        <div class="modal fade" id="lizenzModal" tabindex="-1" aria-labelledby="lizenzModal"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="lizenzModal">Lizenz</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Wir als Team und Herr Prof. Dr. Werner König, initiatior des Projektes,
+                                            verfolgen keine monetären Ziele mit diesem Projekt.</p>
+                                        <p>Daher haben wir uns für die MIT-Lizenz entschieden</p>
+                                        <p>Mit dieser Wahl ermöglichen wir es jedem, im Rahmen der MIT-Lizenz,
+                                            frei an unseren bisheringen Fortschritt anzuknüpfen,
+                                            diesen zu bearbeiten oder weiter zu entwickeln.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                            Schließen
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="/impressum/" target="_blank" style="text-decoration: none; color: white">Impressum & Datenschutzerklärung | </a>
+        <a href="/credits/" target="_blank" style="text-decoration: none; color: white">Credits | </a>
+        <a href="https://www.hs-worms.de/" target="_blank" style="text-decoration: none; color: white">Ein Projekt der Hochschule Worms</a>
+    </footer>
+
+
+{% endblock %}

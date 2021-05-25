@@ -1,0 +1,153 @@
+/* ----------------- Zoom on Hover Effect ----------------- */
+
+/* [1] The container */
+.img-hover-zoom {
+    height: auto; /* [1.1] Set it as per your need */
+    overflow: visible; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.12);
+}
+
+/* ----------------- Back Icon Styling ----------------- */
+
+.island_icon {
+    height: auto;
+    border-radius: 40%;
+    border: 4px solid tomato;
+
+}
+
+/* ----------------- Avatar and Avatar List Styles ----------------- */
+
+#avatar {
+    cursor: pointer;
+}
+
+#avatars_container {
+    text-align: center;
+}
+
+.avatar-selection-list-item {
+    cursor: pointer;
+    max-width: 20%;
+    height: auto;
+    margin: 10px;
+}
+
+.avatar-selection-list-item:hover {
+    -webkit-filter: drop-shadow(0px 0px 3px black);
+    filter: drop-shadow(0px 0px 3px black);
+    transition: -webkit-filter 300ms ease-out;
+    -webkit-transition: -webkit-filter 300ms ease-out;
+}
+
+.avatar-selection-list-item:active {
+    -webkit-filter: drop-shadow(0px 0px 2px black);
+    filter: drop-shadow(0px 0px 2px black);
+    transition: -webkit-filter 100ms ease-out;
+    -webkit-transition: -webkit-filter 100ms ease-out;
+}
+
+.avatar-selection-list-item-selected {
+    -webkit-filter: drop-shadow(0px 0px 5px green);
+    filter: drop-shadow(0px 0px 5px green);
+    transition: -webkit-filter 100ms ease-out;
+    -webkit-transition: -webkit-filter 100ms ease-out;
+}
+
+#gif-player-container {
+    position: fixed;
+    left: -120px;
+    bottom: 0px;
+    z-index: 9999;
+}
+#gif-player {
+    /*max-height: 300px;*/
+    height: auto;
+    width: 100%;
+}
+
+#mute {
+    margin-top: 100px;
+    position: relative;
+    z-index: 9999;
+}
+
+/* --------------------------Mutemory------------------------------- */
+
+/*.memory-game {*/
+/*  width: 840px;*/
+/*  height: 600px;*/
+/*  margin: auto;*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  perspective: 1000px;*/
+/*}*/
+
+/*.memory-card {*/
+/*  width: calc(25% - 10px);*/
+/*  height: calc(33.333% - 10px);*/
+/*  margin: 5px;*/
+/*  position: relative;*/
+/*  transform: scale(1);*/
+/*  transform-style: preserve-3d;*/
+/*  transition: transform .5s;*/
+/*  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);*/
+/*  border: 10px solid grey;*/
+/*}*/
+
+/*.memory-card:active {*/
+/*  transform: scale(0.97);*/
+/*  transition: transform .2s;*/
+/*}*/
+
+/*.memory-card.flip {*/
+/*  transform: rotateY(180deg);*/
+/*}*/
+
+/*.front-face,*/
+/*.back-face {*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  padding: 20px;*/
+/*  position: absolute;*/
+/*  border-radius: 5px;*/
+/*  backface-visibility: hidden;*/
+/*  background-image: url(img/wasser.png);*/
+/*}*/
+
+/*.front-face {*/
+/*  transform: rotateY(180deg);*/
+/*}*/
+
+/*@media screen and (max-width: 600px) {*/
+/*  .memory-game {*/
+/*  width: 400px;*/
+/*  height: 360px;*/
+/*  margin: auto;*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  perspective: 200px;*/
+/* }*/
+/*}*/
+/*@media screen and (max-width: 300px) {*/
+/*  .memory-game {*/
+/*  width: 200px;*/
+/*  height: 180px;*/
+/*  margin: auto;*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  perspective: 100px;*/
+/* }*/
+/*}*/
+
+/* ----------------------------------------------------------------- */

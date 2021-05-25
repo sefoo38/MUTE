@@ -1,0 +1,42 @@
+{% extends "MUTE/base.html" %}
+{% load static %}
+{% block head_links %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/background_clear.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/learnSite.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'js/Games/Mutemory/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'js/Games/Quiz/quizStyle.css' %}">
+{% endblock %}
+{% block content %}
+    {% include "MUTE/includes/navBars/navbar_learn.html" %}
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <div class="col-8 img-hover-zoom" id="island_icon" style="display: none" onclick="back()">
+                    <img src="{% static 'images/islands_overview/islands_icon.png' %}"
+                         class="img-fluid island_icon" alt=""/>
+                </div>
+                <div id="gif-player-container">
+                    <img id="gif-player"/>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="row" id="content">
+
+                </div>
+            </div>
+            <div class="col-3">
+                <img id="mute" src="{% static 'images/muteImages/muteHappy.gif' %}"
+                     class="img-fluid" alt=""/>
+            </div>
+        </div>
+    </div>
+
+    <div id="game_container"></div>
+
+    <script type="text/javascript" src="{% static 'js/learn.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/Games/Mutemory/scripts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/Games/Quiz/muteQuiz.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/Games/Puzzle/PUZZLE.js' %}"></script>
+
+{% endblock %}

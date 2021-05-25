@@ -1,0 +1,59 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/navstyle.css' %}">
+
+<nav class="navbar navbar-light" style="background-color: rgba(110, 120, 124, 0.5);">
+    <div class="container-fluid">
+        <div class="col-3">
+            <span>
+                Deine MuteCoins:
+            </span>
+            <span id="coins">{{ child.coins }}
+            </span>
+            <img width="30%" height="auto" src="{% static 'images/muteImages/muteCoin_spin.gif' %}" class="img-fluid"
+                 alt=""/>
+        </div>
+        <div class="col-2" style="text-align: right;">Dein Code: {{ child.lecture_session_code }}</div>
+        <div class="col-2">
+
+            <div class="modal fade" id="showAvatar" tabindex="-1" aria-labelledby="avatarChangeModal"
+                 aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="avatarChangeModal">Wähle einen Avatar</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body col-12" id="avatars_container"></div>
+                        <div class="modal-footer">
+                            <form id="avatar_upload" enctype="multipart/form-data">{% csrf_token %}
+                                <input type="file" name="image" id="avatar_image"
+                                       accept=".jpg,.jpeg,.png,.gif,.bmp,.webp">
+                            </form>
+                             <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img id="avatar" width="30%" height="auto" src="" class="img-fluid rounded float-end" alt="" data-bs-toggle="modal" data-bs-target="#showAvatar"/>
+        </div>
+
+        <div class="col-2 mb-5">
+            <div id="menu">
+                <ul>
+                    <li class="topmenu">
+                        <a href="">Elternmodus</a>
+                        <ul>
+                            <li class="submenu"><a href="/login/">Einloggen</a></li>
+                            <li class="submenu"><a href="/register/">Registrieren</a></li>
+                        </ul>
+                    </li>
+                    <li class="topmenu">
+                        <a href="/about/">Über Mute</a>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,99 @@
+{% extends "MUTE/base.html" %}
+{% block title %}MUTE - Elternbereich{% endblock %}
+{% block content %}
+    {% include "MUTE/includes/navBars/navbar_parent.html" %}
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-2">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Benachrichtigungen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Einstellugen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Über Mute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-10">
+                <p>{{ parent.username }}</p>
+                <p>{{ parent.has_children }}</p>
+                <p>{{ parent.children }}</p>
+                <p>{{ parent.email }}</p>
+                {% csrf_token %}
+                <input type="text" id="lecture_session_code" placeholder="code eingeben">
+                <button id="add_child">Kind hinzufügen</button>
+                <div>
+                    <label>Übersicht Kinder</label>
+                    <div class="col-4">
+                    <div class="row row-cols-1 row-cols-md-3 g-4" id="children">
+
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    {% load static %}
+    <script type="text/javascript" src="{% static 'js/parentprofile.js' %}"></script>
+
+    <script>
+    const Url='/api/v1/parent/childoverview'
+
+    $('#children').ready(function () {
+        let kids = [];
+        $.getJSON(Url, function (result) {
+            result.forEach(child=> {
+                kids.push("<div class='col'>")
+                kids.push("<div class='card h-100'>")
+                kids.push("<img src='"+ `${base}` + child.image + "'class='card-img-top' style='width: 20%'>")
+                kids.push("<div class='card-body'>")
+                kids.push("<h5 class='card-title'>"+ child.lecture_session_code + "</h5>")
+                kids.push("<p class='card-text'> Musterkind")
+                kids.push("</div>")
+                kids.push("</div>")
+                kids.push("</div>")
+            })
+            $('#children').append(kids)
+            console.log(kids)
+        })
+
+    });
+
+
+    </script>
+
+<footer><p> Das Elternportal befindet sich noch in Bearbeitung und repräsentiert aktuell nicht das Finale Produkt.</p></footer>
+
+<style>
+
+footer{
+    position: fixed;
+    bottom:0;
+    font-size: larger;
+    color:red;
+    margin-left: 20px;
+    
+}
+
+</style>
+{% endblock %}

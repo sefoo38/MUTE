@@ -1,0 +1,1766 @@
+[
+    {
+        "model": "MUTE.SLWord",
+        "pk": 1,
+        "fields": {
+            "word": "Affe",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/affe.png",
+            "sound": "sound/Tiere/affe.mp3",
+            "video": "video/Tiere/affe.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 2,
+        "fields": {
+            "word": "Elefant",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/elefant.png",
+            "sound": "sound/Tiere/elefant.mp3",
+            "video": "video/Tiere/elefant.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 3,
+        "fields": {
+            "word": "Eule",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/eule.png",
+            "sound": "sound/Tiere/eule.mp3",
+            "video": "video/Tiere/eule.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 4,
+        "fields": {
+            "word": "Giraffe",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/giraffe.png",
+            "sound": "sound/Tiere/giraffe.mp3",
+            "video": "video/Tiere/giraffe.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 5,
+        "fields": {
+            "word": "Hase",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/hase.png",
+            "sound": "sound/Tiere/hase.mp3",
+            "video": "video/Tiere/hase.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 6,
+        "fields": {
+            "word": "Hund",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "",
+            "sound": "sound/Tiere/hund.mp3",
+            "video": "video/Tiere/hund.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 7,
+        "fields": {
+            "word": "Katze",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "",
+            "sound": "sound/Tiere/katze.mp3",
+            "video": "video/Tiere/katze.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 8,
+        "fields": {
+            "word": "Maus",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/maus.png",
+            "sound": "sound/Tiere/maus.mp3",
+            "video": "video/Tiere/maus.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 9,
+        "fields": {
+            "word": "Tiger",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "",
+            "sound": "sound/Tiere/tiger.mp3",
+            "video": "video/Tiere/tiger.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 10,
+        "fields": {
+            "word": "Vogel",
+            "category": "Tiere",
+            "island": "Zoo",
+            "image": "image/Tiere/vogel.png",
+            "sound": "sound/Tiere/vogel.mp3",
+            "video": "video/Tiere/vogel.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 11,
+        "fields": {
+            "word": "fahrradfahren",
+            "category": "Aktivitäten",
+            "island": "Spielplatz",
+            "image": "image/Aktivitäten/fahren_fahrrad.png",
+            "sound": "sound/Aktivitäten/fahren_fahrrad.mp3",
+            "video": "video/Aktivitäten/fahren_fahrrad.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 12,
+        "fields": {
+            "word": "sandkasten",
+            "category": "Aktivitäten",
+            "island": "Spielplatz",
+            "image": "image/Aktivitäten/sandkasten.png",
+            "sound": "sound/Aktivitäten/sandkasten.mp3",
+            "video": "video/Aktivitäten/sandkasten.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 13,
+        "fields": {
+            "word": "schwimmen",
+            "category": "Aktivitäten",
+            "island": "Spielplatz",
+            "image": "image/Aktivitäten/schwimmen.png",
+            "sound": "sound/Aktivitäten/schwimmen.mp3",
+            "video": "video/Aktivitäten/schwimmen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 14,
+        "fields": {
+            "word": "singen",
+            "category": "Aktivitäten",
+            "island": "Spielplatz",
+            "image": "image/Aktivitäten/singen.png",
+            "sound": "sound/Aktivitäten/singen.mp3",
+            "video": "video/Aktivitäten/singen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 15,
+        "fields": {
+            "word": "spazieren",
+            "category": "Aktivitäten",
+            "island": "Spielplatz",
+            "image": "image/Aktivitäten/spazieren.png",
+            "sound": "sound/Aktivitäten/spazieren.mp3",
+            "video": "video/Aktivitäten/spazieren.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 16,
+        "fields": {
+            "word": "tanzen",
+            "category": "Aktivitäten",
+            "island": "Spielplatz",
+            "image": "image/Aktivitäten/tanzen.png",
+            "sound": "sound/Aktivitäten/tanzen.mp3",
+            "video": "video/Aktivitäten/tanzen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 17,
+        "fields": {
+            "word": "Angst",
+            "category": "Emotionen",
+            "island": "Kindergarten",
+            "image": "image/Emotionen/angst.png",
+            "sound": "sound/Emotionen/angst.mp3",
+            "video": "video/Emotionen/angst.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 18,
+        "fields": {
+            "word": "Boese",
+            "category": "Emotionen",
+            "island": "Kindergarten",
+            "image": "image/Emotionen/boese.png",
+            "sound": "sound/Emotionen/boese.mp3",
+            "video": "video/Emotionen/boese.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 19,
+        "fields": {
+            "word": "Freude",
+            "category": "Emotionen",
+            "island": "Kindergarten",
+            "image": "image/Emotionen/freude.png",
+            "sound": "sound/Emotionen/freude.mp3",
+            "video": "video/Emotionen/freude.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 20,
+        "fields": {
+            "word": "Nudeln",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/Nudeln.png",
+            "sound": "sound/Essen/nudeln.mp3",
+            "video": "video/Essen/Nudeln.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 21,
+        "fields": {
+            "word": "Essen",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/essen.mp3",
+            "video": "video/Essen/essen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 22,
+        "fields": {
+            "word": "Fisch",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/fisch.png",
+            "sound": "sound/Essen/fisch.mp3",
+            "video": "video/Essen/fisch.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 23,
+        "fields": {
+            "word": "Gummibaerchen",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/gummibaerchen.mp3",
+            "video": "video/Essen/gummibaerchen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 24,
+        "fields": {
+            "word": "Kakao",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/kakao.png",
+            "sound": "sound/Essen/kakao.mp3",
+            "video": "video/Essen/kakao.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 25,
+        "fields": {
+            "word": "Kartoffeln",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/kartoffeln.mp3",
+            "video": "video/Essen/kartoffeln.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 26,
+        "fields": {
+            "word": "Keks",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/keks.mp3",
+            "video": "video/Essen/keks.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 27,
+        "fields": {
+            "word": "Ketchup",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/ketchup.png",
+            "sound": "sound/Essen/ketchup.mp3",
+            "video": "video/Essen/ketchup.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 28,
+        "fields": {
+            "word": "Mayonnaise",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/mayonnaise.mp3",
+            "video": "video/Essen/mayonnaise.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 29,
+        "fields": {
+            "word": "Milch",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/milch.png",
+            "sound": "sound/Essen/milch.mp3",
+            "video": "video/Essen/milch.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 30,
+        "fields": {
+            "word": "Pizza",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/pizza.png",
+            "sound": "sound/Essen/pizza.mp3",
+            "video": "video/Essen/pizza.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 31,
+        "fields": {
+            "word": "Pommes",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/pommes.png",
+            "sound": "sound/Essen/pommes.mp3",
+            "video": "video/Essen/pommes.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 32,
+        "fields": {
+            "word": "Pudding",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/pudding.png",
+            "sound": "sound/Essen/pudding.mp3",
+            "video": "video/Essen/pudding.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 33,
+        "fields": {
+            "word": "Saft",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/saft.png",
+            "sound": "sound/Essen/saft.mp3",
+            "video": "video/Essen/saft.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 34,
+        "fields": {
+            "word": "Salz",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/salz.png",
+            "sound": "sound/Essen/saft.mp3",
+            "video": "video/Essen/salz.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 35,
+        "fields": {
+            "word": "Scharf",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/scharf.mp3",
+            "video": "video/Essen/scharf.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 36,
+        "fields": {
+            "word": "Sueß",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Essen/suess.mp3",
+            "video": "video/Essen/suess.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 37,
+        "fields": {
+            "word": "Suppe",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/suppe.png",
+            "sound": "sound/Essen/suppe.mp3",
+            "video": "video/Essen/suppe.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 38,
+        "fields": {
+            "word": "Tee",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/tee.png",
+            "sound": "sound/Essen/tee.mp3",
+            "video": "video/Essen/tee.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 39,
+        "fields": {
+            "word": "Wasser",
+            "category": "Essen",
+            "island": "Zuhause",
+            "image": "image/Essen/wasser.png",
+            "sound": "sound/Essen/wasser.mp3",
+            "video": "video/Essen/wasser.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 40,
+        "fields": {
+            "word": "Auto",
+            "category": "Fahrzeuge",
+            "island": "Kindergarten",
+            "image": "image/Fahrzeuge/auto.png",
+            "sound": "sound/Fahrzeuge/auto.mp3",
+            "video": "video/Fahrzeuge/auto.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 41,
+        "fields": {
+            "word": "Feuerwehr",
+            "category": "Fahrzeuge",
+            "island": "Kindergarten",
+            "image": "image/Fahrzeuge/feuerwehr.png",
+            "sound": "sound/Fahrzeuge/feuerwehr.mp3",
+            "video": "video/Fahrzeuge/feuerwehr.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 42,
+        "fields": {
+            "word": "Flugzeug",
+            "category": "Fahrzeuge",
+            "island": "Kindergarten",
+            "image": "image/Fahrzeuge/flugzeug.png",
+            "sound": "spund/Fahrzeuge/flugzeug.mp3",
+            "video": "video/Fahrzeuge/flugzeug.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 43,
+        "fields": {
+            "word": "Polizei",
+            "category": "Fahrzeuge",
+            "island": "Kindergarten",
+            "image": "image/Fahrzeuge/polizei.png",
+            "sound": "sound/Fahrzeuge/polizei.mp3",
+            "video": "video/Fahrzeuge/polizei.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 44,
+        "fields": {
+            "word": "Blau",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/blau.mp3",
+            "video": "video/Farben/blau.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 45,
+        "fields": {
+            "word": "Gelb",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/gelb.mp3",
+            "video": "video/Farben/gelb.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 46,
+        "fields": {
+            "word": "Gruen",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/gruen.mp3",
+            "video": "video/Farben/gruen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 47,
+        "fields": {
+            "word": "Rosa",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/rosa.mp3",
+            "video": "video/Farben/rosa.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 48,
+        "fields": {
+            "word": "Rot",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/rot.mp3",
+            "video": "video/Farben/rot.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 49,
+        "fields": {
+            "word": "Schwarz",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/schwarz.mp3",
+            "video": "video/Farben/schwarz.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 50,
+        "fields": {
+            "word": "Weiß",
+            "category": "Farben",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Farben/weiss.mp3",
+            "video": "video/Farben/weiss.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 51,
+        "fields": {
+            "word": "Geburtstag",
+            "category": "Feierlichkeiten",
+            "island": "Zuhause",
+            "image": "image/Feierlichkeiten/geburtstag.png",
+            "sound": "sound/Feierlichkeiten/geburtstag.mp3",
+            "video": "video/Feierlichkeiten/geburtstag.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 52,
+        "fields": {
+            "word": "Weihnachten",
+            "category": "Feierlichkeiten",
+            "island": "Zuhause",
+            "image": "image/Feierlichkeiten/weihnachten.png",
+            "sound": "sound/Feierlichkeiten/weihnachten.mp3",
+            "video": "video/Feierlichkeiten/weihnachten.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 53,
+        "fields": {
+            "word": "Baden",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/baden.png",
+            "sound": "sound/Grundbedürfnisse/baden.mp3",
+            "video": "video/Grundbedürfnisse/baden.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 54,
+        "fields": {
+            "word": "Durst",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/durst.png",
+            "sound": "sound/Grundbedürfnisse/durst.mp3",
+            "video": "video/Grundbedürfnisse/durst.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 55,
+        "fields": {
+            "word": "Dusche",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/dusche.png",
+            "sound": "sound/Grundbedürfnisse/dusche.mp3",
+            "video": "video/Grundbedürfnisse/dusche.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 56,
+        "fields": {
+            "word": "Hunger",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/hunger.png",
+            "sound": "sound/Grundbedürfnisse/hunger.mp3",
+            "video": "video/Grundbedürfnisse/hunger.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 57,
+        "fields": {
+            "word": "Muede",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/muede.png",
+            "sound": "sound/Grundbedürfnisse/muede.mp3",
+            "video": "video/Grundbedürfnisse/muede.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 58,
+        "fields": {
+            "word": "Schlafen",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/schlafen.png",
+            "sound": "sound/Grundbedürfnisse/schlafen.mp3",
+            "video": "video/Grundbedürfnisse/schlafen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 59,
+        "fields": {
+            "word": "Schmerzen",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/schmerzen.png",
+            "sound": "sound/Grundbedürfnisse/schmerzen.mp3",
+            "video": "video/Grundbedürfnisse/schmerzen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 60,
+        "fields": {
+            "word": "Seife",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/seife.png",
+            "sound": "sound/Grundbedürfnisse/seife.mp3",
+            "video": "video/Grundbedürfnisse/seife.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 61,
+        "fields": {
+            "word": "Toilette",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/toilette.png",
+            "sound": "sound/Grundbedürfnisse/toilette.mp3",
+            "video": "video/Grundbedürfnisse/toilette.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 62,
+        "fields": {
+            "word": "Waschen",
+            "category": "Grundbedürfnisse",
+            "island": "Zuhause",
+            "image": "image/Grundbedürfnisse/waschen.png",
+            "sound": "sound/Grundbedürfnisse/waschen.mp3",
+            "video": "video/Grundbedürfnisse/waschen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 63,
+        "fields": {
+            "word": "Bitte",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/bitte.mp3",
+            "video": "video/Kommunikation/bitte.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 64,
+        "fields": {
+            "word": "Danke",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/danke.mp3",
+            "video": "video/Kommunikation/danke.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 65,
+        "fields": {
+            "word": "Entschuldigung",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/entschuldigung.mp3",
+            "video": "video/Kommunikation/entschuldigung.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 66,
+        "fields": {
+            "word": "Geben",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/geben.mp3",
+            "video": "video/Kommunikation/geben.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 67,
+        "fields": {
+            "word": "Hallo",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/hallo.mp3",
+            "video": "video/Kommunikation/hallo.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 68,
+        "fields": {
+            "word": "Was",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/was.mp3",
+            "video": "video/Kommunikation/was.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 69,
+        "fields": {
+            "word": "Wie",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/wie.mp3",
+            "video": "video/Kommunikation/wie.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 70,
+        "fields": {
+            "word": "Wo",
+            "category": "Kommunikation",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Kommunikation/wo.mp3",
+            "video": "video/Kommunikation/wo.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 71,
+        "fields": {
+            "word": "Arm",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/arm.png",
+            "sound": "sound/Körper/arm.mp3",
+            "video": "video/Körper/arm.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 72,
+        "fields": {
+            "word": "Badezimmer",
+            "category": "Orte",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Orte/badezimmer.mp3",
+            "video": "video/Orte/badezimmer.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 73,
+        "fields": {
+            "word": "Bauch",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/bauch.png",
+            "sound": "sound/Körper/bauch.mp3",
+            "video": "video/Körper/bauch.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 74,
+        "fields": {
+            "word": "Bein",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/bein.png",
+            "sound": "sound/Körper/bein.mp3",
+            "video": "video/Körper/bein.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 75,
+        "fields": {
+            "word": "Finger",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/finger.png",
+            "sound": "sound/Körper/finger.mp3",
+            "video": "video/Körper/finger.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 76,
+        "fields": {
+            "word": "Hand",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/hand.png",
+            "sound": "sound/Körper/hand.mp3",
+            "video": "video/Körper/hand.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 77,
+        "fields": {
+            "word": "Herz",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/herz.png",
+            "sound": "sound/Körper/herz.mp3",
+            "video": "video/Körper/herz.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 78,
+        "fields": {
+            "word": "Kopf",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/kopf.png",
+            "sound": "sound/Körper/kopf.mp3",
+            "video": "video/Körper/kopf.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 79,
+        "fields": {
+            "word": "Mund",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/mund.png",
+            "sound": "sound/Körper/mund.mp3",
+            "video": "video/Körper/mund.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 80,
+        "fields": {
+            "word": "Nase",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/nase.png",
+            "sound": "sound/Körper/nase.mp3",
+            "video": "video/Körper/nase.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 81,
+        "fields": {
+            "word": "Ohr",
+            "category": "Körper",
+            "island": "Kindergarten",
+            "image": "image/Körper/ohr.png",
+            "sound": "sound/Körper/ohr.mp3",
+            "video": "video/Körper/ohr.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 82,
+        "fields": {
+            "word": "Bett",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/bett.png",
+            "sound": "sound/Orte/bett.mp3",
+            "video": "video/Orte/bett.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 83,
+        "fields": {
+            "word": "Bild",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Orte/bild.mp3",
+            "video": "video/Orte/bild.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 84,
+        "fields": {
+            "word": "Buch",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/buch.png",
+            "sound": "sound/Orte/buch.mp3",
+            "video": "video/Orte/buch.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 85,
+        "fields": {
+            "word": "Decke",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/decke.png",
+            "sound": "sound/Orte/decke.mp3",
+            "video": "video/Orte/decke.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 86,
+        "fields": {
+            "word": "Fernseher",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/fernseher.png",
+            "sound": "sound/Orte/fernseher.mp3",
+            "video": "video/Orte/fernseher.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 87,
+        "fields": {
+            "word": "Flasche",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/flasche.png",
+            "sound": "sound/Orte/flasche.mp3",
+            "video": "video/Orte/flasche.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 88,
+        "fields": {
+            "word": "Garten",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Orte/garten.mp3",
+            "video": "video/Orte/garten.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 89,
+        "fields": {
+            "word": "Glas",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/glas.png",
+            "sound": "sound/Orte/glas.mp3",
+            "video": "video/Orte/glas.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 90,
+        "fields": {
+            "word": "Haus",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/haus.png",
+            "sound": "sound/Orte/haus.mp3",
+            "video": "video/Orte/haus.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 91,
+        "fields": {
+            "word": "Kindergarten",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Orte/kindergarten.mp3",
+            "video": "video/Orte/kindergarten.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 92,
+        "fields": {
+            "word": "Kissen",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/kissen.png",
+            "sound": "sound/Orte/kissen.mp3",
+            "video": "video/Orte/kissen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 93,
+        "fields": {
+            "word": "Kueche",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/kueche.png",
+            "sound": "sound/Orte/kueche.mp3",
+            "video": "video/Orte/kueche.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 94,
+        "fields": {
+            "word": "Kuehlschrank",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/kuehlschrank.png",
+            "sound": "sound/Orte/kuehlschrank.mp3",
+            "video": "video/Orte/kuehlschrank.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 95,
+        "fields": {
+            "word": "Lampe",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/lampe.png",
+            "sound": "sound/Orte/lampe.mp3",
+            "video": "video/Orte/lampe.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 96,
+        "fields": {
+            "word": "Rucksack",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/rucksack.png",
+            "sound": "sound/Orte/rucksack.mp3",
+            "video": "video/Orte/rucksack.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 97,
+        "fields": {
+            "word": "Schrank",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/schrank.png",
+            "sound": "sound/Orte/schrank.mp3",
+            "video": "video/Orte/schrank.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 98,
+        "fields": {
+            "word": "Schule",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/schule.png",
+            "sound": "sound/Orte/schule.mp3",
+            "video": "video/Orte/schule.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 99,
+        "fields": {
+            "word": "Stuhl",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/stuhl.png",
+            "sound": "sound/Orte/stuhl.mp3",
+            "video": "video/Orte/stuhl.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 100,
+        "fields": {
+            "word": "Tasche",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Orte/tasche.mp3",
+            "video": "video/Orte/tasche.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 101,
+        "fields": {
+            "word": "Telefon",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/telefon.png",
+            "sound": "sound/Orte/telefon.mp3",
+            "video": "video/Orte/telefon.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 102,
+        "fields": {
+            "word": "Zahnbuerste",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/zahnbuerste.png",
+            "sound": "sound/Orte/zahnbuerste.mp3",
+            "video": "video/Orte/zahnbuerste.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 103,
+        "fields": {
+            "word": "Zimmer",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/zimmer.png",
+            "sound": "sound/Orte/zimmer.mp3",
+            "video": "video/Orte/zimmer.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 104,
+        "fields": {
+            "word": "Zoo",
+            "category": "Orte",
+            "island": "Zuhause",
+            "image": "image/Orte/zoo.png",
+            "sound": "sound/Orte/zoo.mp3",
+            "video": "video/Orte/zoo.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 105,
+        "fields": {
+            "word": "Bruder",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "image/Personen/bruder.png",
+            "sound": "sound/Personen/bruder.mp3",
+            "video": "video/Personen/bruder.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 106,
+        "fields": {
+            "word": "Cousin",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Personen/cousin.mp3",
+            "video": "video/Personen/cousin.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 107,
+        "fields": {
+            "word": "Cousine",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Personen/cousine.mp3",
+            "video": "video/Personen/cousine.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 108,
+        "fields": {
+            "word": "Mama",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "image/Personen/mama.png",
+            "sound": "sound/Personen/mama.mp3",
+            "video": "video/Personen/mama.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 109,
+        "fields": {
+            "word": "Oma",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "image/Personen/oma.png",
+            "sound": "sound/Personen/oma.mp3",
+            "video": "video/Personen/oma.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 110,
+        "fields": {
+            "word": "Opa",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "image/Personen/opa.png",
+            "sound": "sound/Personen/opa.mp3",
+            "video": "video/Personen/opa.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 111,
+        "fields": {
+            "word": "Papa",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "image/Personen/papa.png",
+            "sound": "sound/Personen/papa.mp3",
+            "video": "video/Personen/papa.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 112,
+        "fields": {
+            "word": "Schwester",
+            "category": "Personen",
+            "island": "Zuhause",
+            "image": "image/Personen/schwester.png",
+            "sound": "sound/Personen/schwester.mp3",
+            "video": "video/Personen/schwester.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 113,
+        "fields": {
+            "word": "Baum",
+            "category": "Pflanze",
+            "island": "Kindergarten",
+            "image": "image/Pflanze/baum.png",
+            "sound": "sound/Pflanze/baum.mp3",
+            "video": "video/Pflanze/baum.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 114,
+        "fields": {
+            "word": "Blume",
+            "category": "Pflanze",
+            "island": "Kindergarten",
+            "image": "image/Pflanze/blume.png",
+            "sound": "sound/Pflanze/blume.mp3",
+            "video": "video/Pflanze/blume.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 115,
+        "fields": {
+            "word": "Gras",
+            "category": "Pflanze",
+            "island": "Kindergarten",
+            "image": "image/Pflanze/gras.png",
+            "sound": "sound/Pflanze/gras.mp3",
+            "video": "video/Pflanze/gras.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 116,
+        "fields": {
+            "word": "Pflanze",
+            "category": "Pflanze",
+            "island": "Kindergarten",
+            "image": "image/Pflanze/pflanze.png",
+            "sound": "sound/Pflanze/pflanze.mp3",
+            "video": "video/Pflanze/pflanze.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 117,
+        "fields": {
+            "word": "Rose",
+            "category": "Pflanze",
+            "island": "Kindergarten",
+            "image": "image/Pflanze/rose.png",
+            "sound": "sound/Pflanze/rose.mp3",
+            "video": "video/Pflanze/rose.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 118,
+        "fields": {
+            "word": "Ball",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/ball.png",
+            "sound": "sound/Spielen/ball.mp3",
+            "video": "video/Spielen/ball.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 119,
+        "fields": {
+            "word": "Basteln",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/basteln.png",
+            "sound": "sound/Spielen/basteln.mp3",
+            "video": "video/Spielen/basteln.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 120,
+        "fields": {
+            "word": "Eimer",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/eimer.png",
+            "sound": "sound/Spielen/eimer.mp3",
+            "video": "video/Spielen/eimer.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 121,
+        "fields": {
+            "word": "Fußball",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/fussball.png",
+            "sound": "sound/Spielen/fussball.mp3",
+            "video": "video/Spielen/fussball.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 122,
+        "fields": {
+            "word": "Kleben",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/kleben.png",
+            "sound": "sound/Spielen/kleben.mp3",
+            "video": "video/Spielen/kleben.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 123,
+        "fields": {
+            "word": "Kreide",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/kreide.png",
+            "sound": "sound/Spielen/kreide.mp3",
+            "video": "video/Spielen/kreide.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 124,
+        "fields": {
+            "word": "Kuscheltier",
+            "category": "Spielen",
+            "island": "",
+            "image": "image/Spielen/kuscheltier.png",
+            "sound": "sound/Spielen/kuscheltier.mp3",
+            "video": "video/Spielen/kuscheltier.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 125,
+        "fields": {
+            "word": "Lego",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/lego.png",
+            "sound": "sound/Spielen/lego.mp3",
+            "video": "video/Spielen/lego.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 126,
+        "fields": {
+            "word": "Malen",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/malen.png",
+            "sound": "sound/Spielen/malen.mp3",
+            "video": "video/Spielen/malen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 127,
+        "fields": {
+            "word": "Puppe",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/puppe.png",
+            "sound": "sound/Spielen/puppe.mp3",
+            "video": "video/Spielen/puppe.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 128,
+        "fields": {
+            "word": "Schaufel",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/schaufel.png",
+            "sound": "sound/Spielen/schaufel.mp3",
+            "video": "video/Spielen/schaufel.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 129,
+        "fields": {
+            "word": "Schaukel",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/schaukel.png",
+            "sound": "sound/Spielen/schaukel.mp3",
+            "video": "video/Spielen/schaukel.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 130,
+        "fields": {
+            "word": "Spielplatz",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/spielplatz.png",
+            "sound": "sound/Spielen/spielplatz.mp3",
+            "video": "video/Spielen/spielplatz.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 131,
+        "fields": {
+            "word": "Stift",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/stift.png",
+            "sound": "sound/Spielen/stift.mp3",
+            "video": "video/Spielen/stift.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 132,
+        "fields": {
+            "word": "Teddybaer",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "image/Spielen/teddybaer.png",
+            "sound": "sound/Spielen/teddybaer.mp3",
+            "video": "video/Spielen/teddybaer.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 133,
+        "fields": {
+            "word": "Verstecken",
+            "category": "Spielen",
+            "island": "Spielplatz",
+            "image": "",
+            "sound": "sound/Spielen/verstecken.mp3",
+            "video": "video/Spielen/verstecken.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 134,
+        "fields": {
+            "word": "Blitz",
+            "category": "Zeiten",
+            "island": "Spielplatz",
+            "image": "image/Zeiten/blitz.png",
+            "sound": "sound/Zeiten/blitz.mp3",
+            "video": "video/Zeiten/blitz.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 135,
+        "fields": {
+            "word": "Fruehling",
+            "category": "Zeiten",
+            "island": "Spielplatz",
+            "image": "",
+            "sound": "sound/Zeiten/fruehling.mp3",
+            "video": "video/Zeiten/fruehling.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 136,
+        "fields": {
+            "word": "Herbst",
+            "category": "Zeiten",
+            "island": "Spielplatz",
+            "image": "",
+            "sound": "sound/Zeiten/herbst.mp3",
+            "video": "video/Zeiten/herbst.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 137,
+        "fields": {
+            "word": "Nacht",
+            "category": "Zeiten",
+            "island": "Spielplatz",
+            "image": "",
+            "sound": "sound/Zeiten/nacht.mp3",
+            "video": "video/Zeiten/nacht.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 138,
+        "fields": {
+            "word": "Regen",
+            "category": "Zeiten",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Zeiten/regen.mp3",
+            "video": "video/Zeiten/regen.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 139,
+        "fields": {
+            "word": "Sommer",
+            "category": "Zeiten",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Zeiten/sommer.mp3",
+            "video": "video/Zeiten/sommer.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 140,
+        "fields": {
+            "word": "Sonne",
+            "category": "Zeiten",
+            "island": "",
+            "image": "image/Zeiten/sonne.png",
+            "sound": "sound/Zeiten/sonne.mp3",
+            "video": "video/Zeiten/sonne.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 141,
+        "fields": {
+            "word": "Tag",
+            "category": "Zeiten",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Zeiten/tag.mp3",
+            "video": "video/Zeiten/tag.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 142,
+        "fields": {
+            "word": "Winter",
+            "category": "Zeiten",
+            "island": "Kindergarten",
+            "image": "",
+            "sound": "sound/Zeiten/winter.mp3",
+            "video": "video/Zeiten/winter.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 143,
+        "fields": {
+            "word": "Dunkel",
+            "category": "Zustände",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Zustände/dunkel.mp3",
+            "video": "video/Zustände/dunkel.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 144,
+        "fields": {
+            "word": "Hell",
+            "category": "Zustände",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Zustände/hell.mp3",
+            "video": "video/Zustände/hell.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 145,
+        "fields": {
+            "word": "Kalt",
+            "category": "Zustände",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Zustände/kalt.mp3",
+            "video": "video/Zustände/kalt.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 146,
+        "fields": {
+            "word": "Nass",
+            "category": "Zustände",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Zustände/nass.mp3",
+            "video": "video/Zustände/nass.gif"
+        }
+    },
+    {
+        "model": "MUTE.SLWord",
+        "pk": 147,
+        "fields": {
+            "word": "Warm",
+            "category": "Zustände",
+            "island": "Zuhause",
+            "image": "",
+            "sound": "sound/Zustände/warm.mp3",
+            "video": "video/Zustände/warm.gif"
+        }
+    }
+]
