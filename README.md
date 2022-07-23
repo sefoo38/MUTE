@@ -1,6 +1,8 @@
 # Welcome to MUTE :)
 Welcome to the Project MUTE - we are a Team out of the module Projektmanagement und Teamorientiertes Projekt (TOP), of the study programm [_Angewandte Informatik (Applied Computer Science)_](https://www.hs-worms.de/ai/beschreibung/) at [_Hochschule Worms (Worms University of Applied Sciences)_](https://www.hs-worms.de/).
 
+Live Demo: https://mute.ai.it.hs-worms.de/
+
 ## Contents of this Page
 - [Welcome to MUTE :)](README.md#welcome-to-MUTE-:)
 - [Team](README.md#team)
